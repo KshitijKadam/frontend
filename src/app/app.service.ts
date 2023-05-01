@@ -15,7 +15,7 @@ const httpOptions = {
 export class AppService {
 
   
-  serverURL = 'http://localhost:8060/'
+  serverURL = 'http://localhost:8060:/'
 
   constructor(private http: HttpClient) { }
 
